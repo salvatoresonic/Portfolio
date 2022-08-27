@@ -198,7 +198,7 @@ section.about {
   color: #464646;
 }
 
-/*Sección Hobbies*/
+/*Sección skills*/
 
 .skills {
   padding: 2rem 10% 2rem 10%;
@@ -233,13 +233,18 @@ section.about {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
   padding: 15px;
   gap: 8px;
   width: 9rem;
   height: 9rem;
   margin: 0.1rem 0.1rem 0.1rem 0.1rem;
   background: white;
+}
+
+.img__skills {
+  width: 100px;
+  height: auto;
 }
 
 .skills__img {
@@ -249,6 +254,7 @@ section.about {
 .skills__name {
   font-family: "Raleway";
   font-style: normal;
+  text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
